@@ -121,7 +121,7 @@ button.btn.w3ls-btn {
 nav.main-header {
   width: 100vw;
   height: 120px;
-  background: #1e2d3a4a;
+  background: #1e2d3a;
   display: grid;
   grid-template-columns: 1fr 1fr;
   position: fixed;
@@ -182,7 +182,7 @@ ul.nav-agile {
 }
 
 div#word-mark h1 a {
-  color: #1e2d3a;
+  color: #fff;
   font-size: 1.1em;
   text-transform: capitalize;
   font-weight: 800;
@@ -205,7 +205,7 @@ div#word-mark h1 a {
 
 .nav-agile li a {
   width: 80px;
-  background: #12b797;
+  background:#12b797;
   display: block;
   border-radius: 90px;
   color: #fff;
@@ -384,8 +384,8 @@ section {
   ul.nav-agile {
     display: inline-block;
     width: 100vw;
-    height: 0px;
-    background: #1e2d3a4a;
+    height: auto;
+    background: #1e2d3a;
     position: absolute;
     top: 65px !important;
     -webkit-box-shadow: 0 5px 30px -4px rgba(0, 0, 0, 0.2);
@@ -406,7 +406,7 @@ section {
     padding-top: 2em;
   }
   ul.showMenu li {
-    height: 80px;
+    height: auto;
     opacity: 1;
     visibility: visible;
   }
@@ -706,7 +706,7 @@ p.sub-para {
 }
 
 .slider-info h3 {
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: #fff;
   letter-spacing: 1px;
   font-weight: 800;
@@ -724,7 +724,7 @@ h4.abt-right-text {
 }
 
 .slider-info p {
-  font-size: 1em;
+  font-size: 0.9em;
   font-weight: 600;
   color: #000000;
 }
@@ -831,7 +831,7 @@ h5.sub-title {
   position: relative;
   z-index: 1;
   border: 0px solid white;
-  border-radius: 145px;
+ /* border-radius: 145px;*/
 }
 
 .progress-bar-sec:before {
@@ -844,7 +844,7 @@ h5.sub-title {
   background: rgba(30, 45, 58, 0.81);
   z-index: -1;
   border: 0px solid white;
-  border-radius: 145px;
+  /*border-radius: 145px;*/
 }
 
 .progress-outer {
@@ -1972,10 +1972,7 @@ input[type=range]::-ms-track {
 /*.row{
   margin:0px auto;
 }*/
-#youtubesection:hover{
-  background-color: #b9242b;
-  transition: background-color 5s ;
-}
+
 @media screen and (max-width: 1024px) {}
 
 @media screen and (max-width: 991px) {
@@ -2115,6 +2112,7 @@ input[type=range]::-ms-track {
   .nav-agile li {
     padding-left: 20px;
   }
+
   .banner-text {
    /* width: 63%;*/
   }
@@ -2155,7 +2153,7 @@ input[type=range]::-ms-track {
     width: 97%;
   }
   ul.showMenu li {
-    height: 50px;
+    height: auto;
     padding-top: 1em;
   }
   ul.nav-agile.showMenu li {
