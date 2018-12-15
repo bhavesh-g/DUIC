@@ -2605,14 +2605,14 @@ fieldset:disabled a.btn {
 
 .btn-info {
   color: #fff;
-  background-color: #17a2b8;
-  border-color: #17a2b8;
+  background-color: #12b797;
+  border-color: #12b797;
 }
 
 .btn-info:hover {
   color: #fff;
-  background-color: #138496;
-  border-color: #117a8b;
+  background-color: #11967c;
+  border-color: #11967c;
 }
 
 .btn-info:focus, .btn-info.focus {
@@ -4695,7 +4695,7 @@ tbody.collapse.show {
   padding: 0.75rem 1rem;
   margin-bottom: 1rem;
   list-style: none;
-  background-color: #e9ecef;
+  background-color: #fff;
   border-radius: 0.25rem;
 }
 
@@ -7675,7 +7675,7 @@ button.bg-dark:focus {
 
 .pt-5,
 .py-5 {
-  padding-top: 3rem !important;
+ /* padding-top: 3rem !important;*/
 }
 
 .pr-5,
@@ -8432,7 +8432,7 @@ button.bg-dark:focus {
   }
   .pt-lg-5,
   .py-lg-5 {
-    padding-top: 3rem !important;
+   /* padding-top: 3rem !important;*/
   }
   .pr-lg-5,
   .px-lg-5 {
@@ -8440,7 +8440,7 @@ button.bg-dark:focus {
   }
   .pb-lg-5,
   .py-lg-5 {
-    padding-bottom: 3rem !important;
+    /*padding-bottom: 3rem !important;*/
   }
   .pl-lg-5,
   .px-lg-5 {
