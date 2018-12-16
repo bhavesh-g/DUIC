@@ -37,6 +37,47 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   <!-- header -->
   <header class="index-banner">
     <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <a class="navbar-brand" href="#"><img src="images/mainlogo.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  About
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="about.html">IT cell (working)</a>
+                  <a class="dropdown-item" href="about.html">IISc(working)</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="about.html">Visit About Page for more</a>
+                </div>
+              </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="workshop.html">Workshops </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="students.html">Students</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link " href="gallery.html">Gallery</a>
+          </li>
+
+          <li class="nav-item">
+              <a class="nav-link " href="contact.html">Contact</a>
+            </li>
+        </ul>
+        
+          <p class="text-colored small"><span class="h3" id="fullformx">DUIC </span> Deendayal Upadhaya Innovation & Incubation Center</p> 
+          <a class="btn btn-outline-primary my-2 my-sm-0 mx-1" href="#" data-toggle="modal" aria-pressed="false" data-target="#exampleModal">Register</a>
+        
+      </div>
+    </nav>
+    <!--
     <nav class="main-header">
       <div id="brand">
         <div id="logo">
@@ -63,6 +104,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <a href="index.html" class="active">home</a>
           </li>
         -->
+        <!--
           <li>
             <a href="about.html">about</a>
           </li>
@@ -86,11 +128,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         </ul>
       </div>
     </nav>
-
+--->
     
     <!-- //nav -->
     <!-- banner -->
-<div class="row" style="height:120px;background-color:#1e2d3a;"></div>
+<!-- <div class="row" style="height:120px;background-color:#1e2d3a;"></div> -->
     <div class="row" style="margin-right:px;">
       <div class="col-lg-6 col-md-6 col-sm-12">
           <div id="hero-section">
@@ -513,7 +555,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
       <div class="text-center wthree-title pb-sm-5 pb-3">
         <h4 class="w3l-sub">Workshops</h4>
         <h5 class="sub-title py-3">Upcoming and previous workshops</h5>
-        <span></span>
+        
       </div>
       <ul id="flexiselDemo1" class="pt-lg-0 pt-5">
         <li>
@@ -941,12 +983,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
       });
 
       //Smooth Scrolling Using Navigation Menu
-      $('a[href*="#"]').on('click', function (e) {
-        $('html,body').animate({
-          scrollTop: $($(this).attr('href')).offset().top - 100
-        }, 500);
-        e.preventDefault();
-      });
+      
 
       //Toggle Menu
       $('#menu-toggle').on('click', () => {
