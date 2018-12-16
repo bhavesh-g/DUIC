@@ -2139,7 +2139,7 @@ input[type=range]::-ms-track {
   }
   .nbs-flexisel-nav-left,
   .nbs-flexisel-nav-right {
-    top: 0% !important;
+    top: -40px !important;
   }
   h5.blog-title a {
     font-size: 0.8em;
@@ -2209,7 +2209,7 @@ input[type=range]::-ms-track {
   }
   .nbs-flexisel-nav-left,
   .nbs-flexisel-nav-right {
-    top: 0 !important;
+    top: -32px !important;
   }
   h6.footer-wthree {
     font-size: 1.2em;
