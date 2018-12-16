@@ -1886,10 +1886,10 @@ input[type=range]::-ms-track {
 
 .contact-title {
   text-transform: capitalize;
-  font-size: 1.3em;
+  font-size: 1em;
   font-weight: 600;
   color: #12b797;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.1em;
 }
 
 /* //address */
