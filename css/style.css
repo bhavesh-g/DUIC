@@ -1565,7 +1565,7 @@ ul.social-icons3 li a:hover {
 
 .footer-dot {
   background: rgba(30, 45, 58, 0.73);
-  padding: 4em 0;
+ /* padding: 4em 0;*/
 }
 
 .footer-dot .border-top {
